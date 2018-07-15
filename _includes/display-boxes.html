@@ -16,10 +16,10 @@
         <div class="col-xs-4">
       {% elsif num-items == 1 and total-items | modulo: 3 == 1 %}
       <div class="col-xs-4"></div>
-      <a href="#">
+      <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         <div class="col-xs-4">
       {% else %}
-      <a href="#">
+      <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         <div class="col-xs-4">
       {% endif %}
 
