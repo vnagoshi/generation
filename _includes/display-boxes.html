@@ -3,6 +3,9 @@
   {% for item in page.contents %}
     <p>There is content</p>
     {{ page.contents }}
+    {{{{ page.contents }}.name}}
+    {{ page.asdf }}
+    {{{{ page.asdf }}.name}}
   {% endfor %}
 {% else %}
   <p>No Contents</p>
