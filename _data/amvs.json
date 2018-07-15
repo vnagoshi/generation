@@ -1,0 +1,15 @@
+{
+  "amvs": [
+    {
+      "name": "test 1",
+      "date": "test date",
+      "desc": "test desc",
+      "links": [
+        {
+          "url": "test url",
+          "type": "test type"
+        }
+      ]
+    }
+  ]
+}
