@@ -17,30 +17,9 @@
         }
       ],
       "hidden": "false"
-    },{
+    },
+    {
       "name": "test 2",
-      "date": "test date",
-      "desc": "test desc",
-      "links": [
-        {
-          "url": "test url",
-          "type": "test type"
-        }
-      ],
-      "hidden": "false"
-    },{
-      "name": "test 3",
-      "date": "test date",
-      "desc": "test desc",
-      "links": [
-        {
-          "url": "test url",
-          "type": "test type"
-        }
-      ],
-      "hidden": "false"
-    },{
-      "name": "test 4",
       "date": "test date",
       "desc": "test desc",
       "links": [
@@ -52,7 +31,19 @@
       "hidden": "false"
     },
     {
-      "name": "test 5",
+      "name": "test 3",
+      "date": "test date",
+      "desc": "test desc",
+      "links": [
+        {
+          "url": "test url",
+          "type": "test type"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "test 4",
       "date": "test date",
       "desc": "test desc",
       "links": [
