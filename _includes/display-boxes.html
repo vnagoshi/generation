@@ -1,16 +1,6 @@
-{% if page.content %}
-  <p>Contents exists</p>
-  {{ include.contents }}
+{% if include.contents %}
   {% for item in include.contents %}
-    <p>There is contents</p>
     {{ item.name }}
-    {{ item }}
-  {% endfor %}
-  <p>split 2</p>
-  {% for item in site.data.amvs.amvs %}
-    <p>There is contents</p>
-    {{ item.name }}
-    {{ item }}
   {% endfor %}
 {% else %}
   <p>No Contents</p>
