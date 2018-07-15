@@ -1,7 +1,7 @@
 {% if page.content %}
   <p>Contents exists</p>
-  {{ includes.contents }}
-  {% for item in includes.contents %}
+  {{ include.contents }}
+  {% for item in include.contents %}
     <p>There is contents</p>
     {{ item.name }}
     {{ item }}
