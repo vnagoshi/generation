@@ -1,34 +1,32 @@
 {
   "display": {
-    "style": "inline",
+    "style": "block",
     "name": "true",
     "icon": "true",
     "desc": "true"
   },
-  "amvs": [
+  "categories": [
     {
-      "name": "test 1",
-      "date": "test date",
+      "name": "Games",
+      "date": "",
       "desc": "test desc",
       "links": [
         {
-          "url": "test url",
-          "type": "test type"
+          "url": "#",
+          "type": "inHouse"
         }
-      ],
-      "hidden": "false"
+      ]
     },
     {
-      "name": "test 2",
-      "date": "test date",
+      "name": "Themes",
+      "date": "",
       "desc": "test desc",
       "links": [
         {
           "url": "test url",
           "type": "test type"
         }
-      ],
-      "hidden": "false"
+      ]
     }
   ]
 }
