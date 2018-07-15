@@ -29,30 +29,6 @@
         }
       ],
       "hidden": "false"
-    },
-    {
-      "name": "test 3",
-      "date": "test date",
-      "desc": "test desc",
-      "links": [
-        {
-          "url": "test url",
-          "type": "test type"
-        }
-      ],
-      "hidden": "false"
-    },
-    {
-      "name": "test 4",
-      "date": "test date",
-      "desc": "test desc",
-      "links": [
-        {
-          "url": "test url",
-          "type": "test type"
-        }
-      ],
-      "hidden": "false"
     }
   ]
 }
