@@ -2,6 +2,7 @@
   {% assign num-items = include.contents | size %}
   {% for item in include.contents %}
     {% if item.hidden=="false" %}
+      {% assign num-items = num-items | minus: 1 %}
       <a href="#">
         <div class="col-xs-4">
           <div class="well">
