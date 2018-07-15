@@ -1,12 +1,6 @@
 {% if page.content %}
   <p>Contents exists</p>
-  {% for item in page.contents %}
-    <p>There is content</p>
-    {{ item.name }}
-    {{ item }}
-  {% endfor %}
-  <p>split 2</p>
-  {% for item in page.asdf %}
+  {% for item in {{ page.asdf }} %}
     <p>There is asdf</p>
     {{ item.name }}
     {{ item }}
