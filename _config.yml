@@ -1,0 +1,6 @@
+title: RGB Studios
+url: "https://vnagoshi.github.io"
+baseurl: "/generation"
+markdown: kramdown
+include: [_data]
+home-page:
