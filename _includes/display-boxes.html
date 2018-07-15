@@ -3,11 +3,13 @@
   {% for item in page.contents %}
     <p>There is content</p>
     {{ item.name }}
+    {{ item }}
   {% endfor %}
-  <p>split</p>
+  <p>split 2</p>
   {% for item in page.asdf %}
-    <p>There is content</p>
+    <p>There is asdf</p>
     {{ item.name }}
+    {{ item }}
   {% endfor %}
 {% else %}
   <p>No Contents</p>
