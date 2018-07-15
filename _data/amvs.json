@@ -7,12 +7,51 @@
   },
   "amvs": [
     {
-      "name": "test 1",
-      "date": "test date",
-      "desc": "test desc",
+      "name": "Bleeding Out",
+      "date": "April 30, 2018",
+      "desc": "A Beyond the Boundary (Kyoukai no Kanata) AMV with the song Bleeding Out by Imagine Dragons",
+      "icon": "",
       "links": [
         {
-          "url": "test url",
+          "url": "https://www.youtube.com/watch?v=R2xLZnvAHCo",
+          "type": "test type"
+        }
+      ],
+      "hidden": "false"
+    },{
+      "name": "Monster",
+      "date": "September 13, 2017",
+      "desc": "A Tokyo Ghoul AMV with the song Monster by Imagine Dragons",
+      "icon": "",
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=58nhelLrS_g",
+          "type": "test type"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Stolen Present",
+      "date": "October 23, 2017",
+      "desc": "An Erased AMV featuring the song Theif by Imagine Dragons",
+      "icon": "",
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=pKdLHiCQdus",
+          "type": "test type"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Devil's Dream",
+      "date": "August 29, 2017",
+      "desc": "A Madoka Magica AMV with the song Dance with the Devil by Breaking Benjamin",
+      "icon": "",
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=KgyZLAaeNe8",
           "type": "test type"
         }
       ],
