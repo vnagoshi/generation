@@ -1,20 +1,24 @@
 {% if include.contents %}
+  {% assign num-items = include.contents | size %}
   {% for item in include.contents %}
     {% if item.hidden=="false" %}
       <a href="#">
-        <div class="well">
-          {% if include.display.icon=="true" %}
-            {{ item.icon }}
-          {% endif %}
-          {% if include.display.name=="true" %}
-            {{ item.name }}
-          {% endif %}
-          {% if include.display.desc=="true" %}
-            {{ item.desc }}
-          {% endif %}
-          {% if include.display.date=="true" %}
-            {{ item.date }}
-          {% endif %}
+        <div class="col-xs-4">
+          <div class="well">
+            {{ num-items }}
+            {% if include.display.icon=="true" %}
+              {{ item.icon }}
+            {% endif %}
+            {% if include.display.name=="true" %}
+              {{ item.name }}
+            {% endif %}
+            {% if include.display.desc=="true" %}
+              {{ item.desc }}
+            {% endif %}
+            {% if include.display.date=="true" %}
+              {{ item.date }}
+            {% endif %}
+          </div>
         </div>
       </a>
     {% endif %}
