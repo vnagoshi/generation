@@ -1,8 +1,9 @@
 {% if page.content %}
+  <p>Contents exists</p>
   {% for item in page.contents %}
     <p>There is content</p>
-    {{ page.contents }}
+    {{ page.contents.name }}
   {% endfor %}
 {% else %}
-  <p>No Content</p>
+  <p>No Contents</p>
 {% endif %}
