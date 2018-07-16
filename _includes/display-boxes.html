@@ -1,7 +1,7 @@
 <link rel="stylesheet" itemprop="url" href="{{ site.baseurl }}/assets/css/display-boxes.css">
 <br>
 <div class="container-fluid">
-{% if include.contents %}
+{% if include.display %}
   {% assign num-items = include.display.content | size %}
   {% for item in include.display.content %}
     {% if item.hidden == "true" %}
