@@ -14,7 +14,7 @@
   <p class="text-white">{{start-color}}</p>
   <p class="text-white">{{include.data.display.stclr}}</p>
   <p class="text-white">test</p>
-  {% for item in include.display.content %}
+  {% for item in include.data.content %}
     {% if item.hidden == "false" %}
       {% assign total-items-mod = total-items | modulo: 3 %}
       {% assign num-items-mod = num-items | modulo: 3 %}
