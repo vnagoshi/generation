@@ -1,15 +1,15 @@
 <link rel="stylesheet" itemprop="url" href="{{ site.baseurl }}/assets/css/display-boxes.css">
 <br>
 <div class="container-fluid">
-{% if include.display %}
-  {% assign num-items = include.display.content | size %}
-  {% for item in include.display.content %}
+{% if include.data %}
+  {% assign num-items = include.data.content | size %}
+  {% for item in include.data.content %}
     {% if item.hidden == "true" %}
       {% assign num-items = num-items | minus: 1 %}
     {% endif %}
   {% endfor %}
   {% assign total-items = num-items %}
-  {% assign color = include.display.stclr %}
+  {% assign color = include.data.display.stclr %}
   <p class="text-white">{{color}}</p>
   <p class="text-white">{{start-color}}</p>
   <p class="text-white">test</p>
