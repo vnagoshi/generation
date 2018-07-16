@@ -12,6 +12,7 @@
   {% assign color = include.data.display.stclr %}
   <p class="text-white">{{color}}</p>
   <p class="text-white">{{start-color}}</p>
+  <p class="text-white">{{include.data.display.stclr}}</p>
   <p class="text-white">test</p>
   {% for item in include.display.content %}
     {% if item.hidden == "false" %}
@@ -75,7 +76,7 @@
     {% endif %}
   {% endfor %}
 {% else %}
-<p>No Contents</p>
+<p class="text-white">No Contents</p>
 {% endif %}
 </div>
 <br>
