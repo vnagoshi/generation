@@ -4,3 +4,10 @@
 body {
   background-color: #333;
 }
+.no-border {
+  border: none;
+  border-radius: 0;
+}
+.no-margin {
+  margin: 0 0;
+}
