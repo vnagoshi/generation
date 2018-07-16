@@ -10,10 +10,6 @@
   {% endfor %}
   {% assign total-items = num-items %}
   {% assign color = include.data.display.stclr %}
-  <p class="text-white">{{color}}</p>
-  <p class="text-white">{{start-color}}</p>
-  <p class="text-white">{{include.data.display.stclr}}</p>
-  <p class="text-white">test</p>
   {% for item in include.data.content %}
     {% if item.hidden == "false" %}
       {% assign total-items-mod = total-items | modulo: 3 %}
