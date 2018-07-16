@@ -3,9 +3,10 @@
     "style": "inline",
     "name": "true",
     "icon": "true",
-    "desc": "true"
+    "desc": "true",
+    "stclr": 1
   },
-  "amvs": [
+  "content": [
     {
       "name": "Bleeding Out",
       "date": "April 30, 2018",

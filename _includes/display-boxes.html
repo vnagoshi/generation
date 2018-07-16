@@ -2,18 +2,18 @@
 <br>
 <div class="container-fluid">
 {% if include.contents %}
-  {% assign num-items = include.contents | size %}
-  {% for item in include.contents %}
+  {% assign num-items = include.display.content | size %}
+  {% for item in include.display.content %}
     {% if item.hidden == "true" %}
       {% assign num-items = num-items | minus: 1 %}
     {% endif %}
   {% endfor %}
   {% assign total-items = num-items %}
-  {% assign color = 1 %}
+  {% assign color = include.display.stclr %}
   <p class="text-white">{{color}}</p>
   <p class="text-white">{{start-color}}</p>
   <p class="text-white">test</p>
-  {% for item in include.contents %}
+  {% for item in include.display.content %}
     {% if item.hidden == "false" %}
       {% assign total-items-mod = total-items | modulo: 3 %}
       {% assign num-items-mod = num-items | modulo: 3 %}
