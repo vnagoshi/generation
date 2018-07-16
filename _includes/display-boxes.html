@@ -10,6 +10,7 @@
   {% endfor %}
   {% assign total-items = num-items %}
   {% assign color = start-color %}
+  <p class="text-white">{{color}}</p>
   {% for item in include.contents %}
     {% if item.hidden == "false" %}
       {% assign total-items-mod = total-items | modulo: 3 %}
