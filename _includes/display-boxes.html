@@ -14,25 +14,25 @@
       {% assign total-items-mod = total-items | modulo: 3 %}
       {% assign num-items-mod = num-items | modulo: 3 %}
       {% if num-items == 2 and total-items-mod == 2 %}
-      <div class="row" a>
+      <div class="row" 1>
         <div class="col-xs-2"></div>
         <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
           <div class="col-xs-4">
       {% elsif num-items == 1 and total-items-mod == 1 %}
-      <div class="row" b>
+      <div class="row" 2>
         <div class="col-xs-4"></div>
         <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
           <div class="col-xs-4">
       {% elsif total-items-mod == 0 and num-items-mod == 0 %}
-      <div class="row" c>
+      <div class="row" 3>
         <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
           <div class="col-xs-4">
-      {% elsif total-items-mod 2 and num-items-mod == 2 %}
-      <div class="row" d>
+      {% elsif total-items-mod == 2 and num-items-mod == 2 %}
+      <div class="row" 4>
         <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
           <div class="col-xs-4">
-      {% elsif total-items-mod == 1) and num-items-mod == 1 %}
-      <div class="row" e>
+      {% elsif total-items-mod == 1 and num-items-mod == 1 %}
+      <div class="row" 5>
         <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
           <div class="col-xs-4">
       {% else %}
