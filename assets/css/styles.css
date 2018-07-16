@@ -11,3 +11,6 @@ body {
 .no-margin {
   margin: 0 0;
 }
+.text-white {
+  colr: #fff;
+}
