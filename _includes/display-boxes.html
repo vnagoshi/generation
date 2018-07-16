@@ -51,6 +51,7 @@
         </div>
       </a>
       {% assign num-items = num-items | minus: 1 %}
+      {% assign num-items-mod = num-items | modulo: 3 %}
       {% if num-items == 0 %}
       </div>
       {% elsif total-items-mod == 0 and num-items-mod == 0 %}
