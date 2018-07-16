@@ -2,6 +2,9 @@
   height: 100%;
   background: transparent;
 }
+.rgb-display-box-page-title {
+  margin: 0 0 8px 0;
+}
 .rgb-display-box.red {
   border: 6px solid #ad8585;
 }
