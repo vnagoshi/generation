@@ -20,6 +20,7 @@
         <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
           <div class="col-xs-4">
       {% elsif num-items == 1 and total-items-mod == 1 %}
+        {% assign color = color | plus: 1 | modulo: 3 %}
       <div class="row" 2>
         <div class="col-xs-4"></div>
         <a href="{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
