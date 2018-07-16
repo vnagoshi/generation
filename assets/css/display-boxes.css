@@ -8,3 +8,6 @@
 .rgb-display-box.red:hover {
   background-color: #ad8585;
 }
+.rgb-display-box-icon {
+  height: 48px;
+}
