@@ -8,6 +8,18 @@
 .rgb-display-box.red:hover {
   background-color: #ad8585;
 }
+.rgb-display-box.green {
+  border: 6px solid #85ad85;
+}
+.rgb-display-box.green:hover {
+  background-color: #85ad85;
+}
+.rgb-display-box.blue {
+  border: 6px solid #8585ad;
+}
+.rgb-display-box.blue:hover {
+  background-color: #8585ad;
+}
 .rgb-display-box-icon {
   height: 48px;
 }
