@@ -1,10 +1,10 @@
 .rgb-display-box {
-  height: 100% !important;
+  height: 100%;
   background: transparent;
 }
 .rgb-display-box.red {
-  border: 6px solid #ad8585 !important;
+  border: 6px solid #ad8585;
 }
 .rgb-display-box.red:hover {
-  background-color: #ad8585 !important;
+  background-color: #ad8585;
 }
