@@ -14,3 +14,9 @@ body {
 .text-white {
   color: #fff;
 }
+.vmin6 {
+  font-size: 6vmin;
+}
+.vmin3 {
+  font-size: 3vmin;
+}
