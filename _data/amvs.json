@@ -1,9 +1,11 @@
 {
   "display": {
+    "title": "AMVs",
     "style": "inline",
     "name": "true",
     "icon": "true",
     "desc": "true",
+    "date": "false",
     "stclr": 1
   },
   "content": [
