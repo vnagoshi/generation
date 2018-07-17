@@ -1,6 +1,6 @@
 <link rel="stylesheet" itemprop="url" href="{{ site.baseurl }}/assets/css/display-boxes.css">
 <div class="container">
-  <h1 class="text-center text-white vmin6 rgb-display-box-page-title">{{ include.data.display.title }}</h1>
+  <h1 class="text-center text-white vmin6 rgb-display-box-page-title">{{ include.data.display.title }}a</h1>
 </div>
 <div class="container-fluid">
 {% if include.data %}
@@ -46,7 +46,7 @@
 
           <div class="well text-center rgb-display-box {{ site.data.data.colors[color] }}">
             <img class="rgb-display-box-icon" src="{{ site.baseurl }}/assets/icons/{{ item.icon }}">
-            <p class="text-center text-white vmin6 {% if include.data.display.style == 'inline-block' %}inline-block{% endif %}}">{{ item.name }}</p>
+            <p class="text-center text-white vmin6 {% if include.data.display.style == 'inline-block' %}inline-block{% endif %}">{{ item.name }}</p>
             <p class="text-center text-white vmin3">{{ item.desc }}</p>
           </div>
         </div>
