@@ -4,3 +4,9 @@
   height: 1px;
   margin-top: 0;
 }
+.rgb-footer-link:hover {
+  text-decoration: underline;
+}
+.rgb-footer-icon {
+  height: 6vmin;
+}
