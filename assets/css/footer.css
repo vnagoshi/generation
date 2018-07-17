@@ -11,6 +11,7 @@
   text-decoration: underline;
 }
 .rgb-footer-icon {
-  height: 5vmin;
+  height: 3vmin;
+  margin-top: -3px;
   display: inline-block;
 }
