@@ -4,3 +4,6 @@
 .rgb-header-social-icon {
   height: 3vmin;
 }
+.rgb-header-link.red:hover {}
+.rgb-header-link.green:hover {}
+.rgb-header-link.blue:hover {}
