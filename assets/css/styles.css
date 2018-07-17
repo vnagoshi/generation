@@ -14,6 +14,9 @@ body {
 .text-white {
   color: #fff;
 }
+.transparent {
+  background-color: transparent;
+}
 .vmin6 {
   font-size: 6vmin;
 }
