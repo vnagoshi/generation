@@ -16,12 +16,11 @@
       "date": "July 15, 2018",
       "desc": "Desktop Clock is a simple, resizable, and customizable clock for your Mac, PC, or Chomebook",
       "icon": "utilities/desktop_clock.svg",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -29,12 +28,11 @@
       "date": "",
       "desc": "Doodle Pad is a very simple online doodling tool",
       "icon": "utilities/doodle_pad.svg",
-      "links": [
-        {
-          "url": "",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -42,12 +40,11 @@
       "date": "June 28, 2018",
       "desc": "Chrome Notes is a simple notepad extension for your browser",
       "icon": "utilities/chrome_notes.svg",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/chrome-notes/lnfempckkegmaeleniojhjplemmebgfi",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/chrome-notes/lnfempckkegmaeleniojhjplemmebgfi",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -55,12 +52,11 @@
       "date": "",
       "desc": "Grade Calc is a website that lets you easily and quickly compute many students' grades",
       "icon": "utilities/grade_calc.svg",
-      "links": [
-        {
-          "url": "",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -68,12 +64,11 @@
       "date": "",
       "desc": "Stat Calc is a website that lets you compute basic stats from your data",
       "icon": "utilities/stat_calc.svg",
-      "links": [
-        {
-          "url": "",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -81,12 +76,11 @@
       "date": "",
       "desc": "Calculate the intersection point of two lines",
       "icon": "utilities/intersect_calc.svg",
-      "links": [
-        {
-          "url": "",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -94,12 +88,11 @@
       "date": "",
       "desc": "Number Converter is a website that lets you easily and quickly convert between bases 2, 8, 10, and 16",
       "icon": "utilities/number_converter.svg",
-      "links": [
-        {
-          "url": "",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -107,12 +100,11 @@
       "date": "October 12, 2017",
       "desc": "With Copylink, just click a button and copy the link of your current page to your clipboard",
       "icon": "utilities/copylink.svg",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/copylink/hmbglhnodfegeiemefjoejkkmncdobde",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/copylink/hmbglhnodfegeiemefjoejkkmncdobde",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     }
   ]
