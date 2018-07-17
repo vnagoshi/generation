@@ -16,11 +16,11 @@
       "date": "",
       "desc": "President",
       "icon": "",
+      "link": {
+        "url": "",
+        "type": ""
+      },
       "links": [
-        {
-          "url": "",
-          "type": "blank"
-        },
         {
           "url": "mailto:justingolden@rgbstudios.org",
           "type": "email",
@@ -49,11 +49,11 @@
       "date": "",
       "desc": "Vice President",
       "icon": "",
+      "link": {
+        "url": "",
+        "type": ""
+      },
       "links": [
-        {
-          "url": "",
-          "type": "blank"
-        },
         {
           "url": "mailto:vnagoshi@rgbstudios.org",
           "type": "email",

@@ -16,11 +16,11 @@
       "date": "December 19, 2017",
       "desc": "A quick, fun and simple game. You're a square. Use the arrow keys to avoid balls. Collect gems",
       "icon": "games/bounce.svg",
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/bounce/einmcdaghdipofpibojookebgdpggmlb",
+        "type": "blank"
+      },
       "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/bounce/einmcdaghdipofpibojookebgdpggmlb",
-          "type": "blank"
-        },
         {
           "url": "https://www.reddit.com/r/bouncegame/",
           "type": "reddit",

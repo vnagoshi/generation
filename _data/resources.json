@@ -16,24 +16,22 @@
       "date": "",
       "desc": "Click to download",
       "icon": "",
-      "links": [
-        {
-          "url": "",
-          "type": "blank"
-        }
-      ],
+      "links": {
+        "url": "",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },{
       "name": "Boolean Algebra Basics",
       "date": "",
       "desc": "Click to download",
       "icon": "",
-      "links": [
-        {
-          "url": "",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     }
   ]

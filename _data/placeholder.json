@@ -16,12 +16,11 @@
       "date": "",
       "desc": "Check back later as we release more projects",
       "icon": "rgb/rgb-logo.svg",
-      "links": [
-        {
-          "url": "",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "",
+        "type": ""
+      },
+      "links": [],
       "hidden": "false"
     }
   ]

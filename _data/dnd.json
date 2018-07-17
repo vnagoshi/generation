@@ -16,24 +16,22 @@
       "date": "",
       "desc": "DnD Dice is a website that lets you track all of your die results for DnD (or similar games)",
       "icon": "dnd/dice_roller.svg",
-      "links": [
-        {
-          "url": "/dnd",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "/dnd",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },{
       "name": "Character Creator",
       "date": "",
       "desc": "Quickly roll all the stats for a new character with one button. Great for DMs creating many characters on the f&zwnj;ly",
       "icon": "dnd/char_creator.svg",
-      "links": [
-        {
-          "url": "/dnd",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "/dnd",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     }
   ]

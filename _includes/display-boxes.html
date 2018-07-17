@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         {% if include.data.display.style != 'plain' %}
-        <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
+        <a href="{% if item.link.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.link.url }}"{% if item.link.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% elsif num-items == 1 and total-items-mod == 1 %}
@@ -30,30 +30,30 @@
       <div class="row">
         <div class="col-sm-4"></div>
         {% if include.data.display.style != 'plain' %}
-        <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
+        <a href="{% if item.link.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.link.url }}"{% if item.link.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% elsif total-items-mod == 0 and num-items-mod == 0 %}
       <div class="row">
         {% if include.data.display.style != 'plain' %}
-        <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
+        <a href="{% if item.link.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.link.url }}"{% if item.link.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% elsif total-items-mod == 2 and num-items-mod == 2 %}
       <div class="row">
         {% if include.data.display.style != 'plain' %}
-        <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
+        <a href="{% if item.link.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.link.url }}"{% if item.link.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% elsif total-items-mod == 1 and num-items-mod == 1 %}
       <div class="row">
         {% if include.data.display.style != 'plain' %}
-        <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
+        <a href="{% if item.link.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.link.url }}"{% if item.link.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% else %}
         {% if include.data.display.style != 'plain' %}
-      <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
+      <a href="{% if item.link.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.link.url }}"{% if item.link.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
         <div class="col-sm-4">
       {% endif %}
@@ -71,17 +71,15 @@
             {% if include.data.display.date == "true" %}
             <p class="text-center text-white vmin3">{{ item.date }}</p>
             {% endif %}
-            {% if item.links.size > 1 %}
+            {% if item.links.size > 0 %}
             <table class="table rgb-display-box-table">
               <tr>
             {% for link in item.links %}
-              {% if link.type != "blank" %}
-                <td>
-                  <a href="{{ link.url }}" target="_blank">
-                    <img class="rgb-display-box-link {{ site.data.data.colors[color] }}" src="{{ site.baseurl }}/assets/icons/{{ link.icon }}">
-                  </a>
-                </td>
-              {% endif %}
+              <td>
+                <a href="{{ link.url }}" target="_blank">
+                  <img class="rgb-display-box-link {{ site.data.data.colors[color] }}" src="{{ site.baseurl }}/assets/icons/{{ link.icon }}">
+                </a>
+              </td>
             {% endfor %}
               </tr>
             </table>

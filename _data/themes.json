@@ -68,12 +68,11 @@
       "date": "October 25, 2017",
       "desc": "A Chrome theme featuring a Scarlet Macaw. Photo taken in Cancun.",
       "icon": "themes/macaw_icon.png",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/macaw-theme/kohdhodmkpkdhckijnphpmopigcebbod",
-          "type": "blank"
-        }
-      ],
+      "links": {
+        "url": "https://chrome.google.com/webstore/detail/macaw-theme/kohdhodmkpkdhckijnphpmopigcebbod",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -81,12 +80,11 @@
       "date": "August 29, 2017",
       "desc": "A simple leafy theme (Firefox)",
       "icon": "themes/leafy_icon.png",
-      "links": [
-        {
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/leafy-theme/",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/leafy-theme/",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     }
   ]
