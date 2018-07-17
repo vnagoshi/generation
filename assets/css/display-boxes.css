@@ -44,12 +44,15 @@
 }
 .rgb-display-box-link.red:hover {
   background-color: #c66;
+  border-radius: 3px;
 }
 .rgb-display-box-link.green:hover {
   background-color: #c6c;
+  border-radius: 3px;
 }
 .rgb-display-box-link.blue:hover {
   background-color: #66c;
+  border-radius: 3px;
 }
 .rgb-display-box-table {
   margin-bottom: 0;
