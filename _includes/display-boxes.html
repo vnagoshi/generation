@@ -59,7 +59,7 @@
             {% endif %}
             {% if item.links.size > 1 %}
             <div class="row">
-            {% for link in items.links %}
+            {% for link in item.links %}
               {% if link.type != "blank" and link.type != "default" %}
               <a href="{{ link.url }}" target="_blank">
                 <img class="rgb-display-box-link {{ site.data.data.colors[color] }}" src="{{ site.baseurl }}/assets/icons/{{ link.icon }}">
