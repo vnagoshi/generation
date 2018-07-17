@@ -43,11 +43,15 @@
   height: 36px;
 }
 .rgb-display-box-link.red:hover {
-  color: #c66;
+  fill: #c66;
 }
 .rgb-display-box-link.green:hover {
-  color: #c6c;
+  fill: #c6c;
 }
 .rgb-display-box-link.blue:hover {
-  color: #66c;
+  fill: #66c;
+}
+.rgb-display-box-table {
+  margin-bottom: 0;
+  border-top: 2px solid white;
 }
