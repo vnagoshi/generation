@@ -50,7 +50,7 @@
         {% if include.data.display.style != 'plain' %}
         <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
-          <div class="col-sm-4">
+          <a class="col-sm-4">
       {% else %}
         {% if include.data.display.style != 'plain' %}
       <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
@@ -89,7 +89,7 @@
           </div>
         </div>
       {% if include.data.display.style != 'plain' %}
-      </div>
+      </a>
       {% endif %}
       {% assign num-items = num-items | minus: 1 %}
       {% assign num-items-mod = num-items | modulo: 3 %}
