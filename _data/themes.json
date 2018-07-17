@@ -1,0 +1,93 @@
+{
+  "display": {
+    "title": "Themes",
+    "style": "default",
+    "name": "true",
+    "icon": "true",
+    "icnpos": "inline",
+    "icnstyl": "border",
+    "desc": "true",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Red Panda",
+      "date": "October 1, 2017",
+      "desc": "A cute red panda theme. Photo taken at the San Diego Zoo (Chrome) - $0.99",
+      "icon": "themes/panda_icon.png",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/red-panda-theme/ojoceglghponbcfmffjpbbanahklflmj",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Oceanic",
+      "date": "October 1, 2017",
+      "desc": "A relaxing oceanic theme with sea turtles (Chrome)",
+      "icon": "themes/oceanic_icon.png",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/oceanic-sabines-themes/femmeedooldedngihfhibdaoffplpmjg",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "SDSU Theme",
+      "date": "October 2, 2017",
+      "desc": "Red and black SDSU theme featuring the atheletics logo on your new tab page (Chrome)",
+      "icon": "themes/sdsu_icon.png",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/sdsu-theme/dhjfmefjbageknpnhdpoleanagbjmpae",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Kirby Theme",
+      "date": "October 1, 2017",
+      "desc": "A simple, happy Kirby theme (Chrome)",
+      "icon": "themes/kirby_icon.png",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/simple-kirby-theme/pmgejnbidkpedlelioicpfgeobedgeeb",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Macaw Theme",
+      "date": "October 25, 2017",
+      "desc": "A Chrome theme featuring a Scarlet Macaw. Photo taken in Cancun.",
+      "icon": "themes/macaw_icon.png",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/macaw-theme/kohdhodmkpkdhckijnphpmopigcebbod",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Leafy Firefox",
+      "date": "August 29, 2017",
+      "desc": "A simple leafy theme (Firefox)",
+      "icon": "themes/leafy_icon.png",
+      "links": [
+        {
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/leafy-theme/",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}
