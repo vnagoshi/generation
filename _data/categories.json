@@ -21,7 +21,8 @@
           "url": "/games",
           "type": "default"
         }
-      ]
+      ],
+      "hidden": "false"
     },
     {
       "name": "Themes",
@@ -33,7 +34,8 @@
           "url": "/themes",
           "type": "default"
         }
-      ]
+      ],
+      "hidden": "false"
     },
     {
       "name": "Utilities",
@@ -45,7 +47,8 @@
           "url": "/utilities",
           "type": "default"
         }
-      ]
+      ],
+      "hidden": "false"
     },
     {
       "name": "DnD",
@@ -57,7 +60,8 @@
           "url": "/dnd",
           "type": "default"
         }
-      ]
+      ],
+      "hidden": "false"
     },
     {
       "name": "AMVs",
@@ -69,7 +73,8 @@
           "url": "/amvs",
           "type": "default"
         }
-      ]
+      ],
+      "hidden": "false"
     },
     {
       "name": "References",
@@ -81,7 +86,8 @@
           "url": "/references",
           "type": "default"
         }
-      ]
+      ],
+      "hidden": "false"
     }
   ]
 }
