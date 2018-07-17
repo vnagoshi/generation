@@ -2,8 +2,8 @@
   padding-left: 0;
 }
 @media only screen and (max-width: 767px) {
-  .rgb-header-container {
-    padding-left: 15px;
+  .rgb-header-dropdown-item {
+    border: none !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -11,8 +11,8 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .rgb-header-dropdown-item {
-    border: none !important;
+  .rgb-header-container {
+    padding-left: 15px;
   }
 }
 .rgb-header-social-icon {
