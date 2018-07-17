@@ -50,7 +50,7 @@
         {% if include.data.display.style != 'plain' %}
         <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
-          <a class="col-sm-4">
+          <div class="col-sm-4">
       {% else %}
         {% if include.data.display.style != 'plain' %}
       <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
