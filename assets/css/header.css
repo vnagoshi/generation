@@ -22,3 +22,12 @@
 .rgb-header-link.blue:hover {
   background-color: #339;
 }
+.rgb-header-link.red.open {
+  background-color: #933;
+}
+.rgb-header-link.green:focus {
+  background-color: #393;
+}
+.rgb-header-link.blue:active {
+  background-color: #339;
+}
