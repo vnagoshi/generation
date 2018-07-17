@@ -16,6 +16,15 @@
 .rgb-header-link.blue.active {
   background-color: #339;
 }
+.rgb-header-link.red.open {
+  background-color: #933;
+}
+.rgb-header-link.green.open {
+  background-color: #393;
+}
+.rgb-header-link.blue.open {
+  background-color: #339;
+}
 .rgb-header-link.red:hover {
   background-color: #933;
 }
