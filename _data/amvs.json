@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "AMVs",
-    "style": "inline",
+    "style": "inline-block",
     "name": "true",
     "icon": "true",
     "desc": "true",
