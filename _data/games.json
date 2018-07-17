@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": "Utilities",
+    "style": "default",
+    "name": "true",
+    "icon": "true",
+    "icnpos": "inline",
+    "icnstyl": "plain",
+    "desc": "true",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Bounce",
+      "date": "December 19, 2017",
+      "desc": "A quick, fun and simple game. You're a square. Use the arrow keys to avoid balls. Collect gems",
+      "icon": "games/bounce.svg",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/bounce/einmcdaghdipofpibojookebgdpggmlb",
+          "type": "blank"
+        },
+        {
+          "url": "https://www.reddit.com/r/bouncegame/",
+          "type": "reddit",
+          "icon": "social/reddit.svg"
+        },
+        {
+          "url": "https://www.facebook.com/groups/bouncegame/",
+          "type": "facebook",
+          "icon": "social/facebook.svg"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}

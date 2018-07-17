@@ -39,3 +39,15 @@
   border: 4px solid #8585ad;
   border-radius: 3px;
 }
+.rgb-display-box-link {
+  height: 36px;
+}
+.rgb-display-box-link.red:hover {
+  color: #c66;
+}
+.rgb-display-box-link.green:hover {
+  color: #c6c;
+}
+.rgb-display-box-link.blue:hover {
+  color: #66c;
+}
