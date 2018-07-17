@@ -47,6 +47,9 @@
   padding: 0 0;
   border: 2px solid #333;
 }
+.rgb-header-social-item {
+  float: left;
+}
 .rgb-header-dropdown-item {
   border: 2px solid #333;
 }
