@@ -18,7 +18,7 @@
       "icon": "dnd/dice_roller.svg",
       "links": [
         {
-          "url": "#",
+          "url": "/dnd",
           "type": "default"
         }
       ],
@@ -30,7 +30,7 @@
       "icon": "dnd/char_creator.svg",
       "links": [
         {
-          "url": "#",
+          "url": "/dnd",
           "type": "default"
         }
       ],
