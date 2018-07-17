@@ -4,10 +4,11 @@
   height: 1px;
   margin-top: 0;
 }
-.rgb-footer-link {
+.rgb-footer-text {
+  text-decoration: underline;
   display: inline-block;
 }
-.rgb-footer-link:hover {
+.rgb-footer-link:hover .rgb-footer-text {
   text-decoration: underline;
 }
 .rgb-footer-icon {
