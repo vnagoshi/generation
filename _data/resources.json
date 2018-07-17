@@ -1,0 +1,40 @@
+{
+  "display": {
+    "title": "Resources",
+    "style": "default",
+    "name": "true",
+    "icon": "false",
+    "icnpos": "inline",
+    "icnstyl": "border",
+    "desc": "true",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Logic Reference Chart",
+      "date": "",
+      "desc": "Click to download",
+      "icon": "",
+      "links": [
+        {
+          "url": "",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },{
+      "name": "Boolean Algebra Basics",
+      "date": "",
+      "desc": "Click to download",
+      "icon": "",
+      "links": [
+        {
+          "url": "",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}
