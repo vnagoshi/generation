@@ -1,6 +1,11 @@
 .rgb-header-container {
   padding-left: 0;
 }
+@media only screen and (max-width: 600px) {
+  .rgb-header-dropdown-item {
+    border: none;
+  }
+}
 @media only screen and (max-width: 768px) {
   .rgb-header-container {
     padding-left: 15px;
