@@ -45,8 +45,8 @@
       {% endif %}
 
           <div class="well text-center rgb-display-box {{ site.data.data.colors[color] }}">
-            <img class="rgb-display-box-icon" src="{{ site.baseurl }}/assets/icons/{{ item.icon }}">
-            <p class="text-center text-white vmin6 {% if include.data.display.style == 'inline-block' %}inline-block{% endif %}">{% if include.data.display.style == 'inline-block' %}&nbsp;{% endif %}{{ item.name }}</p>
+            <img class="rgb-display-box-icon {% if include.data.display.icnstyl == 'border' %}{{ site.data.data.colors[color] }}{% endif %}" src="{{ site.baseurl }}/assets/icons/{{ item.icon }}">
+            <p class="text-center text-white vmin6 {% if include.data.display.icnstyl == 'inline' %}inline-block{% endif %}">{% if include.data.display.icnstyl == 'inline' %}&nbsp;{% endif %}{{ item.name }}</p>
             <p class="text-center text-white vmin3">{{ item.desc }}</p>
           </div>
         </div>
