@@ -1,0 +1,73 @@
+{
+  "display": {
+    "title": "Our Team",
+    "style": "default",
+    "name": "true",
+    "icon": "false",
+    "icnpos": "inline",
+    "icnstyl": "plain",
+    "desc": "true",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Justin Golden",
+      "date": "",
+      "desc": "President",
+      "icon": "",
+      "links": [
+        {
+          "url": "mailto:justingolden@rgbstudios.org",
+          "type": "email",
+          "icon": "general/contact-mail.svg"
+        },
+        {
+          "url": "justingolden21.github.io",
+          "type": "home",
+          "icon": "general/home.svg"
+        },
+        {
+          "url": "https://www.linkedin.com/in/justingolden21/",
+          "type": "linkedin",
+          "icon": "social/linkedin.svg"
+        },
+        {
+          "url": "https://github.com/justingolden21",
+          "type": "github",
+          "icon": "social/github.svg"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Vincent Nagoshi",
+      "date": "",
+      "desc": "Vice President",
+      "icon": "",
+      "links": [
+        {
+          "url": "mailto:vnagoshi@rgbstudios.org",
+          "type": "email",
+          "icon": "general/contact-mail.svg"
+        },
+        {
+          "url": "vnagoshi.github.io",
+          "type": "home",
+          "icon": "general/home.svg"
+        },
+        {
+          "url": "https://www.linkedin.com/in/vincent-nagoshi/",
+          "type": "linkedin",
+          "icon": "social/linkedin.svg"
+        },
+        {
+          "url": "https://github.com/vnagoshi",
+          "type": "github",
+          "icon": "social/github.svg"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}

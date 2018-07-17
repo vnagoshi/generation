@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "",
+    "style": "default",
+    "name": "true",
+    "icon": "false",
+    "icnpos": "inline",
+    "icnstyl": "plain",
+    "desc": "true",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Alyssa Gahagan",
+      "date": "",
+      "desc": "Lead AMV Designer",
+      "icon": "",
+      "links": [
+        {
+          "url": "mailto:alyssagahagan@rgbstudios.org",
+          "type": "email",
+          "icon": "general/contact-mail.svg"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}
