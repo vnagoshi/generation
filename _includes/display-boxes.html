@@ -1,7 +1,9 @@
 <link rel="stylesheet" itemprop="url" href="{{ site.baseurl }}/assets/css/display-boxes.css">
+{% if include.data.display.title != "" %}
 <div class="container">
   <h1 class="text-center text-white vmin6 rgb-display-box-page-title">{{ include.data.display.title }}</h1>
 </div>
+{% endif %}
 <div class="container-fluid">
 {% if include.data %}
   {% assign num-items = include.data.content | size %}
@@ -44,7 +46,7 @@
         <div class="col-sm-4">
       {% endif %}
 
-          <div class="well text-center rgb-display-box {{ site.data.data.colors[color] }}">
+          <div class="well text-center rgb-display-box {{ site.data.data.colors[color] }} {% if include.data.display.style == 'plain' %}plain{% endif %}">
             {% if include.data.display.icon == "true" %}
             <img class="rgb-display-box-icon {% if include.data.display.icnstyl == 'border' %}{{ site.data.data.colors[color] }}{% endif %}" src="{{ site.baseurl }}/assets/icons/{{ item.icon }}">
             {% endif %}

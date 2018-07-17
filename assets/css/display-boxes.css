@@ -11,13 +11,13 @@
 .rgb-display-box.red:hover {
   background-color: #ad8585;
 }
-.rgb-display-box.green {
+.rgb-display-box.green:not(.plain) {
   border: 6px solid #85ad85;
 }
-.rgb-display-box.green:hover {
+.rgb-display-box.green:hover:not(.plain) {
   background-color: #85ad85;
 }
-.rgb-display-box.blue {
+.rgb-display-box.blue:not(.plain) {
   border: 6px solid #8585ad;
 }
 .rgb-display-box.blue:hover {

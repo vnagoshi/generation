@@ -1,0 +1,28 @@
+{
+  "display": {
+    "title": "",
+    "style": "plain",
+    "name": "true",
+    "icon": "true",
+    "icnpos": "block",
+    "icnstyl": "plain",
+    "desc": "true",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Content Coming Soon",
+      "date": "",
+      "desc": "Check back later as we release more projects",
+      "icon": "rgb/rgb-logo.svg",
+      "links": [
+        {
+          "url": "",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}

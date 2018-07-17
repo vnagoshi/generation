@@ -1,0 +1,41 @@
+{
+  "display": {
+    "title": "New Projects",
+    "style": "default",
+    "name": "true",
+    "icon": "true",
+    "icnpos": "inline",
+    "icnstyl": "plain",
+    "desc": "true",
+    "date": "true",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Bounce",
+      "date": "December 19, 2017",
+      "desc": "A quick, fun and simple game. You're a square. Use the arrow keys to avoid balls. Collect gems",
+      "icon": "games/bounce.svg",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/bounce/einmcdaghdipofpibojookebgdpggmlb",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Bleeding Out",
+      "date": "April 30, 2018",
+      "desc": "A Beyond the Boundary (Kyoukai no Kanata) AMV with the song Bleeding Out by Imagine Dragons",
+      "icon": "amvs/bleeding_out_icon.png",
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=R2xLZnvAHCo",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}
