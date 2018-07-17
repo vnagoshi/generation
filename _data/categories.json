@@ -16,12 +16,11 @@
       "date": "",
       "desc": "Check out our games on chrome web apps, mobile apps, and webpages",
       "icon": "general/games.svg",
-      "links": [
-        {
-          "url": "/games",
-          "type": "default"
-        }
-      ],
+      "link":         {
+        "url": "/games",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -29,12 +28,11 @@
       "date": "",
       "desc": "Our collection of Chrome and Firefox themes to spruce up your browser",
       "icon": "general/themes.svg",
-      "links": [
-        {
-          "url": "/themes",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "/themes",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -42,12 +40,11 @@
       "date": "",
       "desc": "Useful tools from calculators to clocks, check out our handy applications",
       "icon": "general/utilities.svg",
-      "links": [
-        {
-          "url": "/utilities",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "/utilities",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -55,12 +52,11 @@
       "date": "",
       "desc": "Dungeons and Dragons apps and utilities to aid in your adventure",
       "icon": "general/dnd.svg",
-      "links": [
-        {
-          "url": "/dnd",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "/dnd",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -68,12 +64,11 @@
       "date": "",
       "desc": "All of our AMVs, all of which are on our YouTube channel",
       "icon": "general/amvs.svg",
-      "links": [
-        {
-          "url": "/amvs",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "/amvs",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -81,12 +76,11 @@
       "date": "",
       "desc": "Learn some web development basics with walkthrough articles and youtube tutorials",
       "icon": "general/resources.svg",
-      "links": [
-        {
-          "url": "/resources",
-          "type": "default"
-        }
-      ],
+      "link": {
+        "url": "/resources",
+        "type": "default"
+      },
+      "links": [],
       "hidden": "false"
     }
   ]
