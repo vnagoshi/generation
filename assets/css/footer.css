@@ -5,13 +5,12 @@
   margin-top: 0;
 }
 .rgb-footer-text {
-  text-decoration: underline;
   display: inline-block;
 }
 .rgb-footer-link:hover .rgb-footer-text {
   text-decoration: underline;
 }
 .rgb-footer-icon {
-  height: 4vmin;
+  height: 5vmin;
   display: inline-block;
 }
