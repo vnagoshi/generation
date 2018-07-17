@@ -1,6 +1,7 @@
 .rgb-display-box {
   height: 100%;
   background: transparent;
+  box-shadow: none;
 }
 .rgb-display-box-page-title {
   margin: 0 0 8px 0;
