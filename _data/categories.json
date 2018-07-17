@@ -77,13 +77,13 @@
       "hidden": "false"
     },
     {
-      "name": "References",
+      "name": "Resources",
       "date": "",
       "desc": "Learn some web development basics with walkthrough articles and youtube tutorials",
-      "icon": "general/references.svg",
+      "icon": "general/resources.svg",
       "links": [
         {
-          "url": "/references",
+          "url": "/resources",
           "type": "default"
         }
       ],
