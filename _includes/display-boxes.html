@@ -45,16 +45,16 @@
       {% endif %}
 
           <div class="well text-center rgb-display-box {{ site.data.data.colors[color] }}">
-            {% if include.data.display.icon == true%}
+            {% if include.data.display.icon == "true" %}
             <img class="rgb-display-box-icon {% if include.data.display.icnstyl == 'border' %}{{ site.data.data.colors[color] }}{% endif %}" src="{{ site.baseurl }}/assets/icons/{{ item.icon }}">
             {% endif %}
-            {% if include.data.display.name == true%}
+            {% if include.data.display.name == "true" %}
             <p class="text-center text-white vmin6 {% if include.data.display.icnpos == 'inline' %}inline-block{% endif %}">{% if include.data.display.icnpos == 'inline' %}&nbsp;{% endif %}{{ item.name }}</p>
             {% endif %}
-            {% if include.data.display.desc == true%}
+            {% if include.data.display.desc == "true" %}
             <p class="text-center text-white vmin3">{{ item.desc }}</p>
             {% endif %}
-            {% if include.data.display.date == true%}
+            {% if include.data.display.date == "true" %}
             <p class="text-center text-white vmin3">Released {{ item.date }}</p>
             {% endif %}
 
