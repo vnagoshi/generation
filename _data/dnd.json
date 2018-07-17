@@ -1,0 +1,40 @@
+{
+  "display": {
+    "title": "AMVs",
+    "style": "default",
+    "name": "true",
+    "icon": "true",
+    "icnpos": "inline",
+    "icnstyl": "border",
+    "desc": "true",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Dice Roller",
+      "date": "",
+      "desc": "DnD Dice is a website that lets you track all of your die results for DnD (or similar games)",
+      "icon": "dnd/dice_roller.svg",
+      "links": [
+        {
+          "url": "#",
+          "type": "default"
+        }
+      ],
+      "hidden": "false"
+    },{
+      "name": "Character Creator",
+      "date": "",
+      "desc": "Quickly roll all the stats for a new character with one button. Great for DMs creating many characters on the f&zwnj;ly",
+      "icon": "dnd/monster_icon.png",
+      "links": [
+        {
+          "url": "#",
+          "type": "default"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}
