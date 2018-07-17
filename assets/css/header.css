@@ -5,6 +5,10 @@
   .rgb-header-container {
     padding-left: 15px;
   }
+  .rgb-header-navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 .rgb-header-social-icon {
   height: 3vmin;

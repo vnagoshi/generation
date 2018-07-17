@@ -1,7 +1,7 @@
 <link rel="stylesheet" itemprop="url" href="{{ site.baseurl }}/assets/css/header.css">
 <nav class="navbar nav-bar-default no-border no-margin">
   <div class="container-fluid rgb-header-container">
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav  rgb-header-navbar">
       <li class="rgb-header-link red {% if page.active == 'home' %}active{% endif %}">
         <a class="transparent" href="{{ site.baseurl }}">
           <span class="text-white vmin3">Home</span>
@@ -38,7 +38,7 @@
         </ul>
       </li>
     </ul>
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav navbar-right rgb-header-navbar">
       <li class="rgb-header-social-item">
         <a class="rgb-header-link green" href="mailto:{{ site.data.data.contact-email }}?Subject=Regarding RGB Studios" onmouseover="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-closed.svg';">
           <img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/mail-closed.svg" id="rgb-header-contact-icon">
