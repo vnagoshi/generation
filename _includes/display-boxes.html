@@ -21,7 +21,7 @@
       {% if num-items == 2 and total-items-mod == 2 %}
       <div class="row">
         <div class="col-sm-2"></div>
-        {% if include.data.display.style == 'plain' %}
+        {% if include.data.display.style != 'plain' %}
         <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
@@ -29,30 +29,30 @@
         {% assign color = color | plus: 1 | modulo: 3 %}
       <div class="row">
         <div class="col-sm-4"></div>
-        {% if include.data.display.style == 'plain' %}
+        {% if include.data.display.style != 'plain' %}
         <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% elsif total-items-mod == 0 and num-items-mod == 0 %}
       <div class="row">
-        {% if include.data.display.style == 'plain' %}
+        {% if include.data.display.style != 'plain' %}
         <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% elsif total-items-mod == 2 and num-items-mod == 2 %}
       <div class="row">
-        {% if include.data.display.style == 'plain' %}
+        {% if include.data.display.style != 'plain' %}
         <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% elsif total-items-mod == 1 and num-items-mod == 1 %}
       <div class="row">
-        {% if include.data.display.style == 'plain' %}
+        {% if include.data.display.style != 'plain' %}
         <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
           <div class="col-sm-4">
       {% else %}
-        {% if include.data.display.style == 'plain' %}
+        {% if include.data.display.style != 'plain' %}
       <a href="{% if item.links.first.type == 'default' %}{{site.baseurl}}{% endif %}{{ item.links.first.url }}"{% if item.links.first.type == "blank" %} target="_blank"{% endif %}>
         {% endif %}
         <div class="col-sm-4">
@@ -88,7 +88,7 @@
             {% endif %}
           </div>
         </div>
-      {% if include.data.display.style == 'plain' %}
+      {% if include.data.display.style != 'plain' %}
       </div>
       {% endif %}
       {% assign num-items = num-items | minus: 1 %}
