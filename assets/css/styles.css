@@ -15,7 +15,7 @@ body {
   color: #fff;
 }
 .transparent {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 .vmin6 {
   font-size: 6vmin;
