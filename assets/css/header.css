@@ -34,3 +34,19 @@
 .rgb-header-link.blue:focus {
   background-color: #339;
 }
+.rgb-header-dropdown {
+  padding: 0 0;
+  border: 2px solid #333;
+}
+.rgb-header-dropdown-item {
+  border: 2px solid #333;
+}
+.rgb-header-dropdown-item.red {
+  background-color: #c66;
+}
+.rgb-header-dropdown-item.green {
+  background-color: #6c6;
+}
+.rgb-header-dropdown-item.blue {
+  background-color: #66c;
+}
