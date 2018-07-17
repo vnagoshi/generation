@@ -4,6 +4,9 @@
 .rgb-header-social-icon {
   height: 3vmin;
 }
+.rgb-header-link {
+  background-color: #333;
+}
 .rgb-header-link.red.active {
   background-color: #933;
 }
