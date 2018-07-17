@@ -2,23 +2,62 @@
 <nav class="navbar nav-bar-default no-border no-margin">
   <div class="container-fluid rgb-header-container">
     <ul class="nav navbar-nav">
-      <li class="rgb-header-link red {% if page.active == 'home' %}active{% endif %}"><a class="transparent" href="{{ site.baseurl }}"><span class="text-white vmin3">Home</span></a></li>
-      <li class="rgb-header-link green {% if page.active == 'new projects' %}active{% endif %}"><a class="transparent" href="{{ site.baseurl }}/newprojects"><span class="text-white vmin3">New Projects</span></a></li>
-      <li class="rgb-header-link blue {% if page.active == 'about us' %}active{% endif %}"><a class="transparent" href="{{ site.baseurl }}/aboutus"><span class="text-white vmin3">About Us</span></a></li>
+      <li class="rgb-header-link red {% if page.active == 'home' %}active{% endif %}">
+        <a class="transparent" href="{{ site.baseurl }}">
+          <span class="text-white vmin3">Home</span>
+        </a>
+      </li>
+      <li class="rgb-header-link green {% if page.active == 'new projects' %}active{% endif %}">
+        <a class="transparent" href="{{ site.baseurl }}/newprojects">
+          <span class="text-white vmin3">New Projects</span>
+        </a>
+      </li>
+      <li class="rgb-header-link blue {% if page.active == 'about us' %}active{% endif %}">
+        <a class="transparent" href="{{ site.baseurl }}/aboutus">
+          <span class="text-white vmin3">About Us</span>
+        </a>
+      </li>
       <li class="dropdown rgb-header-link red">
-        <a class="dropdown-toggle transparent" id="rgb-header-dropdown" data-toggle="dropdown"><span class="text-white vmin3">More&nbsp;</span><span class="caret text-white"></span></a>
+        <a class="dropdown-toggle transparent" id="rgb-header-dropdown" data-toggle="dropdown">
+          <span class="text-white vmin3">More&nbsp;</span>
+          <span class="caret text-white"></span>
+        </a>
         <ul class="dropdown-menu rgb-header-dropdown" aria-labelledby="rgb-header-dropdown">
-          <li class="rgb-header-dropdown-item red"><a href="http://ignite.cards/" target="_blank"><span class="text-white vmin3">Ignite! The Board Game</span></a></li>
-          <li class="rgb-header-dropdown-item green"><a href="{{ site.baseurl }}/more/chromeapphelp"><span class="text-white vmin3">Help with Chrome Apps</span></a></li>
+          <li class="rgb-header-dropdown-item red">
+            <a class="transparent" href="http://ignite.cards/" target="_blank">
+              <span class="text-white vmin3">Ignite! The Board Game</span>
+            </a>
+          </li>
+          <li class="rgb-header-dropdown-item green">
+            <a class="transparent" href="{{ site.baseurl }}/more/chromeapphelp">
+              <span class="text-white vmin3">Help with Chrome Apps</span>
+            </a>
+          </li>
           <!--<li class="rgb-header-dropdown-item blue"><a href="#"><span class="text-white vmin3">Temp</span></a></li>-->
         </ul>
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a class="rgb-header-link green" href="mailto:{{ site.data.data.contact-email }}?Subject=Regarding RGB Studios" onmouseover="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-closed.svg';"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/mail-closed.svg" id="rgb-header-contact-icon"></a></li>
-      <li><a class="rgb-header-link blue" href="{{ site.data.data.social-links.facebook }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/facebook.svg"></a></li>
-      <li><a class="rgb-header-link red" href="{{ site.data.data.social-links.youtube }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/youtube.svg"></a></li>
-      <li><a class="rgb-header-link blue" href="{{ site.data.data.social-links.twitter }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/twitter.svg"></a></li>
+      <li>
+        <a class="rgb-header-link green" href="mailto:{{ site.data.data.contact-email }}?Subject=Regarding RGB Studios" onmouseover="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-closed.svg';">
+          <img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/mail-closed.svg" id="rgb-header-contact-icon">
+        </a>
+      </li>
+      <li>
+        <a class="rgb-header-link blue" href="{{ site.data.data.social-links.facebook }}" target="_blank">
+          <img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/facebook.svg">
+        </a>
+      </li>
+      <li>
+        <a class="rgb-header-link red" href="{{ site.data.data.social-links.youtube }}" target="_blank">
+          <img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/youtube.svg">
+        </a>
+      </li>
+      <li>
+        <a class="rgb-header-link blue" href="{{ site.data.data.social-links.twitter }}" target="_blank">
+          <img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/twitter.svg">
+        </a>
+      </li>
     </ul>
   </div>
 </nav>
