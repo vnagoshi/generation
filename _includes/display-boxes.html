@@ -58,15 +58,19 @@
             <p class="text-center text-white vmin3">{{ item.date }}</p>
             {% endif %}
             {% if item.links.size > 1 %}
-            <div class="row">
+            <table class="table">
+              <tr>
             {% for link in item.links %}
-              {% if link.type != "blank" and link.type != "default" %}
-              <a href="{{ link.url }}" target="_blank">
-                <img class="rgb-display-box-link {{ site.data.data.colors[color] }}" src="{{ site.baseurl }}/assets/icons/{{ link.icon }}">
-              </a>
+              {% if link.type != "blank" %}
+                <td>
+                  <a href="{{ link.url }}" target="_blank">
+                    <img class="rgb-display-box-link {{ site.data.data.colors[color] }}" src="{{ site.baseurl }}/assets/icons/{{ link.icon }}">
+                  </a>
+                </td>
               {% endif %}
             {% endfor %}
-            </div>
+              </tr>
+            </table>
             {% endif %}
           </div>
         </div>
