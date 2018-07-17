@@ -68,3 +68,7 @@
 .rgb-header-dropdown-item.blue:hover {
   background-color: #339;
 }
+.rgb-header-dropdown-icon {
+   height: 2vmin;
+   margin-top: -4px
+}
