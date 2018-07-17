@@ -5,9 +5,7 @@
   height: 3vmin;
 }
 .rgb-header-link {
-  padding: 12px 16px;
-  border: none;
-  border-radius: none;
+
 }
 .rgb-header-link.red.active {
   background-color: #933;
