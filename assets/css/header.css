@@ -6,6 +6,9 @@
 }
 .rgb-header-link {
   background-color: #333;
+  border: none;
+  border-radius: 0;
+  padding: 13px 13px;
 }
 .rgb-header-link.red.active {
   background-color: #933;
