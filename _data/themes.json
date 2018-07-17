@@ -16,12 +16,11 @@
       "date": "October 1, 2017",
       "desc": "A cute red panda theme. Photo taken at the San Diego Zoo (Chrome) - $0.99",
       "icon": "themes/panda_icon.png",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/red-panda-theme/ojoceglghponbcfmffjpbbanahklflmj",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/red-panda-theme/ojoceglghponbcfmffjpbbanahklflmj",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -29,12 +28,11 @@
       "date": "October 1, 2017",
       "desc": "A relaxing oceanic theme with sea turtles (Chrome)",
       "icon": "themes/oceanic_icon.png",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/oceanic-sabines-themes/femmeedooldedngihfhibdaoffplpmjg",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/oceanic-sabines-themes/femmeedooldedngihfhibdaoffplpmjg",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -42,12 +40,11 @@
       "date": "October 2, 2017",
       "desc": "Red and black SDSU theme featuring the atheletics logo on your new tab page (Chrome)",
       "icon": "themes/sdsu_icon.png",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/sdsu-theme/dhjfmefjbageknpnhdpoleanagbjmpae",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/sdsu-theme/dhjfmefjbageknpnhdpoleanagbjmpae",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -55,12 +52,11 @@
       "date": "October 1, 2017",
       "desc": "A simple, happy Kirby theme (Chrome)",
       "icon": "themes/kirby_icon.png",
-      "links": [
-        {
-          "url": "https://chrome.google.com/webstore/detail/simple-kirby-theme/pmgejnbidkpedlelioicpfgeobedgeeb",
-          "type": "blank"
-        }
-      ],
+      "link": {
+        "url": "https://chrome.google.com/webstore/detail/simple-kirby-theme/pmgejnbidkpedlelioicpfgeobedgeeb",
+        "type": "blank"
+      },
+      "links": [],
       "hidden": "false"
     },
     {
@@ -68,7 +64,7 @@
       "date": "October 25, 2017",
       "desc": "A Chrome theme featuring a Scarlet Macaw. Photo taken in Cancun.",
       "icon": "themes/macaw_icon.png",
-      "links": {
+      "link": {
         "url": "https://chrome.google.com/webstore/detail/macaw-theme/kohdhodmkpkdhckijnphpmopigcebbod",
         "type": "blank"
       },
