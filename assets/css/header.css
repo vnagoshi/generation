@@ -1,6 +1,11 @@
 .rgb-header-container {
   padding-left: 0;
 }
+@media only screen and (max-width: 600px) {
+  .rgb-header-container {
+    padding-left: 12px;
+  }
+}
 .rgb-header-social-icon {
   height: 3vmin;
 }
