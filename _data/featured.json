@@ -1,0 +1,54 @@
+{
+  "display": {
+    "title": "Featured Projects",
+    "style": "default",
+    "name": "true",
+    "icon": "true",
+    "icnpos": "inline",
+    "icnstyl": "plain",
+    "desc": "false",
+    "date": "false",
+    "stclr": 1
+  },
+  "content": [
+    {
+      "name": "Bounce",
+      "date": "",
+      "desc": "",
+      "icon": "games/bounce.svg",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/bounce/einmcdaghdipofpibojookebgdpggmlb",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Desktop Clock",
+      "date": "",
+      "desc": "",
+      "icon": "utilities/desktop_clock.svg",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    },
+    {
+      "name": "Chrome Notes",
+      "date": "",
+      "desc": "",
+      "icon": "utilities/chrome_notes.svg",
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/chrome-notes/lnfempckkegmaeleniojhjplemmebgfi",
+          "type": "blank"
+        }
+      ],
+      "hidden": "false"
+    }
+  ]
+}
