@@ -2,11 +2,11 @@
 <nav class="navbar nav-bar-default no-border no-margin">
   <div class="container-fluid rgb-header-container">
     <ul class="nav navbar-nav">
-      <li><a href="{{ site.baseurl }}"><span class="text-white vmin3">Home</span></a></li>
-      <li><a href="#"><span class="text-white vmin3">New Projects</span></a></li>
-      <li><a href="#"><span class="text-white vmin3">About Us</span></a></li>
+      <li><a class="rgb-header-link red" href="{{ site.baseurl }}"><span class="text-white vmin3">Home</span></a></li>
+      <li><a class="rgb-header-link green" href="#"><span class="text-white vmin3">New Projects</span></a></li>
+      <li><a class="rgb-header-link blue" href="#"><span class="text-white vmin3">About Us</span></a></li>
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="text-white vmin3">More&nbsp;</span><span class="caret text-white"></span></a>
+        <a class="rgb-header-link red" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="text-white vmin3">More&nbsp;</span><span class="caret text-white"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Chrome App Help</a></li>
           <li><a href="#">Temp 1</a></li>
@@ -15,10 +15,10 @@
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li class="rgb-header-link green"><a href="mailto:{{ site.data.data.contact-email}}?Subject=Regarding RGB Studios" onmouseover="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-closed.svg';"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/mail-closed.svg" id="rgb-header-contact-icon"></a></li>
-      <li class="rgb-header-link blue"><a href="{{ site.data.data.social-links.facebook }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/facebook.svg"></a></li>
-      <li class="rgb-header-link red"><a href="{{ site.data.data.social-links.youtube }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/youtube.svg"></a></li>
-      <li class="rgb-header-link blue"><a href="{{ site.data.data.social-links.twitter }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/twitter.svg"></a></li>
+      <li><a class="rgb-header-link green" href="mailto:{{ site.data.data.contact-email}}?Subject=Regarding RGB Studios" onmouseover="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('rgb-header-contact-icon').src='{{ site.baseurl }}/assets/icons/social/mail-closed.svg';"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/mail-closed.svg" id="rgb-header-contact-icon"></a></li>
+      <li><a class="rgb-header-link blue" href="{{ site.data.data.social-links.facebook }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/facebook.svg"></a></li>
+      <li><a class="rgb-header-link red" href="{{ site.data.data.social-links.youtube }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/youtube.svg"></a></li>
+      <li><a class="rgb-header-link blue" href="{{ site.data.data.social-links.twitter }}" target="_blank"><img class="rgb-header-social-icon" src="{{ site.baseurl }}/assets/icons/social/twitter.svg"></a></li>
     </ul>
   </div>
 </nav>
