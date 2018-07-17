@@ -21,11 +21,6 @@
           "url": "mailto:alyssagahagan@rgbstudios.org",
           "type": "email",
           "icon": "general/contact-mail.svg"
-        },
-        {
-          "url": "mailto:alyssagahagan@rgbstudios.org",
-          "type": "home",
-          "icon": "general/contact-mail.svg"
         }
       ],
       "hidden": "false"
