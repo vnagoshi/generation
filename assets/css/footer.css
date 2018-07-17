@@ -4,6 +4,9 @@
   height: 1px;
   margin-top: 0;
 }
+.rgb-footer-link {
+  display: inline-block;
+}
 .rgb-footer-link:hover {
   text-decoration: underline;
 }
