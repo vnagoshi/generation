@@ -59,3 +59,12 @@
 .rgb-header-dropdown-item.blue {
   background-color: #66c;
 }
+.rgb-header-dropdown-item.red:hover {
+  background-color: #933;
+}
+.rgb-header-dropdown-item.green:hover {
+  background-color: #393;
+}
+.rgb-header-dropdown-item.blue:hover {
+  background-color: #339;
+}
