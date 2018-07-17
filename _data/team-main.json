@@ -18,6 +18,10 @@
       "icon": "",
       "links": [
         {
+          "url": "",
+          "type": "blank"
+        },
+        {
           "url": "mailto:justingolden@rgbstudios.org",
           "type": "email",
           "icon": "general/contact-mail.svg"
@@ -46,6 +50,10 @@
       "desc": "Vice President",
       "icon": "",
       "links": [
+        {
+          "url": "",
+          "type": "blank"
+        },
         {
           "url": "mailto:vnagoshi@rgbstudios.org",
           "type": "email",

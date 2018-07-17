@@ -18,6 +18,10 @@
       "icon": "",
       "links": [
         {
+          "url": "",
+          "type": "blank"
+        },
+        {
           "url": "mailto:alyssagahagan@rgbstudios.org",
           "type": "email",
           "icon": "general/contact-mail.svg"
