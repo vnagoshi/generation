@@ -20,6 +20,7 @@
 }
 .rgb-header-link {
   background-color: #333;
+  cursor: pointer;
 }
 .rgb-header-link.red.active {
   background-color: #933;
