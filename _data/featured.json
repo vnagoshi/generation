@@ -25,14 +25,20 @@
     },
     {
       "name": "Desktop Clock",
-      "date": "",
-      "desc": "",
+      "date": "July 15, 2018",
+      "desc": "Desktop Clock is a simple, resizable, and customizable clock for your Mac, PC, or Chomebook",
       "icon": "utilities/desktop_clock.svg",
       "link": {
-        "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
-        "type": "blank"
+        "url": "/utilities/desktopclock",
+        "type": "default"
       },
-      "links": [],
+      "links": [
+        {
+          "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
+          "type": "chrome-webstore",
+          "icon": "/general/ex_link.svg"
+        }
+      ],
       "hidden": "false"
     },
     {
