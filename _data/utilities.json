@@ -17,7 +17,7 @@
       "desc": "Desktop Clock is a simple, resizable, and customizable clock for your Mac, PC, or Chomebook",
       "icon": "utilities/desktop_clock.svg",
       "link": {
-        "url": "/more/desktopclock",
+        "url": "/utilities/desktopclock",
         "type": "default"
       },
       "links": [
