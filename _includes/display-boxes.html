@@ -72,18 +72,20 @@
             {% if include.data.display.date == "true" %}
             <p class="text-center text-white vmin3">{{ item.date }}</p>
             {% endif %}
-            {% if item.links.size > 0 %}
-            <table class="table rgb-display-box-table">
-              <tr>
-            {% for link in item.links %}
-              <td>
-                <a href="{{ link.url }}" target="_blank">
-                  <img class="rgb-display-box-link {{ site.data.data.colors[color] }}" src="{{ site.baseurl }}/assets/icons/{{ link.icon }}">
-                </a>
-              </td>
-            {% endfor %}
-              </tr>
-            </table>
+            {% if include.data.display.links == "true" %}
+              {% if item.links.size > 0 %}
+              <table class="table rgb-display-box-table">
+                <tr>
+              {% for link in item.links %}
+                <td>
+                  <a href="{{ link.url }}" target="_blank">
+                    <img class="rgb-display-box-link {{ site.data.data.colors[color] }}" src="{{ site.baseurl }}/assets/icons/{{ link.icon }}">
+                  </a>
+                </td>
+              {% endfor %}
+                </tr>
+              </table>
+              {% endif %}
             {% endif %}
           </div>
           {% if include.data.display.style != 'plain' %}

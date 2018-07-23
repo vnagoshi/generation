@@ -8,6 +8,7 @@
     "icnstyl": "plain",
     "desc": "true",
     "date": "true",
+    "links": "true",
     "stclr": 1
   },
   "content": [

@@ -8,6 +8,7 @@
     "icnstyl": "border",
     "desc": "true",
     "date": "false",
+    "links": "true",
     "stclr": 1
   },
   "content": [
