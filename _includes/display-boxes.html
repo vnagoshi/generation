@@ -112,19 +112,3 @@
 <p class="text-white">No Contents</p>
 {% endif %}
 </div>
-<script>
-  let elements = document.querySelectorAll(".well");
-  let heights = [];
-
-  [].forEach.call(elements, function(each) {
-    heights[heights.length] = getComputedStyle(each, null).getPropertyValue("height");
-  });
-
-  heights.sort(function(a, b) {
-    return parseFloat(b) - parseFloat(a);
-  });
-
-  [].forEach.call(elements, function(each) {
-    each.style.height = heights[0];
-  });
-</script>
