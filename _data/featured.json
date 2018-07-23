@@ -36,7 +36,7 @@
         {
           "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
           "type": "chrome-webstore",
-          "icon": "/general/ex_link.svg"
+          "icon": "/general/chrome.svg"
         }
       ],
       "hidden": "false"
